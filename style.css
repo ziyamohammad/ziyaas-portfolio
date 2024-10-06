@@ -1,0 +1,1013 @@
+*{
+    border:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+}
+.logo{
+    height:100vh;
+    width:100vw;
+    background-image:url(rm209-adj-18-e.jpg);
+    background-size: 100vw 100vh;
+}
+nav{
+    position:relative;
+    height:10vh;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(14, 155, 236);
+    padding-bottom:10px;
+}
+a{
+    font-size:20px;
+    text-decoration: none;
+    transition:0.5s;
+    color:black;
+}
+.zj{
+    color:black;
+    font-size:170%;
+    margin-right:30%;
+    font-weight:800;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.zj:hover {
+    box-shadow: 0 0 50px rgb(5, 152, 237);
+  }
+span{
+    color:rgb(188, 218, 236);
+}
+span:hover{
+    color:blue;
+}
+.n{
+    color:rgb(5, 152, 237);
+}
+
+.name{
+    color:rgb(5, 152, 237);
+}
+.tree{
+    display:flex;
+    flex-direction: row-reverse;
+    height:90vh;
+    width:100vw;
+    
+}
+.tree .photo{
+    background-image:url(ziya.jpg);
+    background-size:40vw 90vh;
+    margin-left:90px;
+    animation-delay:1.5s;
+    width:40vw;
+    height:90vh;
+}
+
+.content .shama{
+    margin-top:60px;
+    MARGIN-RIGHT:50PX;
+    animation-delay: 0.5s;
+}
+.content .n {
+    animation-delay: 1.5s;
+}
+.content{
+    text-align:left;
+    font-size:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    margin:100px;
+    font-weight:1000;
+    font-family:Arial, Helvetica, sans-serif;
+    height:90vh;
+    width:60vw;
+    color:black;
+    
+
+    
+}
+i{
+    color:black;
+}
+i:hover{
+    color:rgb(5, 152, 237);
+}
+.lo  {
+    width:339.2px;
+    margin-top:12px;
+    font-size:10px;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.lo a{
+    font-size:40px;
+    transition:0.5s;
+    animation-delay: 1.5sec;
+}
+a:hover{
+    font-size:25px;
+    text-decoration:underline;
+    color:white;
+    
+
+}
+.anime{
+    opacity:0;
+    transform:translateX(50px);
+    animation:moveright 2s linear forwards;
+}
+@keyframes moveright{
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+.anim{
+    opacity:0;
+    transform:translateY(30px);
+    animation:moveup 3s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+.lo a:hover{
+    border:2px solid rgb(5, 152, 237);
+    border-radius:30px;
+    font-size:45px;
+    background-color:white;
+
+}
+.but{
+    background-color:rgb(5, 152, 237);
+    width:150px;
+    height:50px;
+    border-radius:30px;
+    border-top-right-radius:0px;
+    margin-top:20px;
+    color:black;
+    animation-delay:1.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.but:hover{
+    color:white;
+    background-color:rgb(5, 152, 237);
+    width:155px;
+    height:55px;
+    border-top-right-radius:30px;
+    box-shadow: 0 0 50px rgb(5, 152, 237);
+   
+
+}
+
+.new{
+    color:black;
+    text-decoration:none;
+    font-size:70px;
+    text-align:center;
+    font-weight: 600;
+    font-family:'Times New Roman';
+    HEIGHT:0vh;
+    width:100vw;
+    animation-delay:0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.new:hover{
+    text-decoration:underline;
+    box-shadow: 0 0 50px rgb(5, 152, 237);
+
+}
+.two{
+    margin:0px;
+    HEIGHT:100vh;
+    width:100vw;
+    background-image:url(rm209-adj-18-e.jpg);
+    background-size:100vw 100vh;
+    animation-delay: 0.3s;
+}
+.photo{
+    animation-delay:0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+
+}
+.photo:hover{
+    box-shadow: 0 0 50px rgb(5, 152, 237);
+
+
+}
+
+.next{
+     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-size:1600px 750px;
+    }
+.hd{
+    background-image:url(IMG-20231125-WA0014.jpg);
+    background-size:61vh 30vw;
+    width:30vw;
+    height:50vh;
+    border-width: 2px;
+    BORDER-RADIUS:50px;
+    display:flex;
+    margin-top:150px;
+    margin-right:0px;
+    margin-left:170px;
+    margin-bottom:100px;
+    animation-delay: 1s;
+}
+    
+.ph{
+    animation-delay:0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.ph:hover{
+    box-shadow: 0 0 50px  rgb(5, 152, 237);
+
+ }
+.ad{
+    width:50vw;
+    height:90vh;
+    font-size:80px;
+    display:flex;
+    flex-direction:column;
+    margin-top:200px;
+    align-items:left;
+    color:rgb(5, 152, 237);
+    padding:0px;
+    animation-delay:1s
+
+   
+    
+    
+    
+}
+.gh{
+    font-size:30px;
+    font-weight:600;
+    color:black;
+    margin-bottom:0px;
+    animation-delay: 1s;
+}
+.text{
+    font-size:20px;
+    margin-top:10px;
+}
+
+.three{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    background-image:url(rm209-adj-18-e.jpg);
+    background-size:100vw 100vh;
+}
+.three .ct{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    padding:40px;
+    height:100vh;
+    width:50vw;
+    margin-top:10px;
+    padding-left:15vw;
+    align-items:left;
+
+}
+.con{
+    font-family:"PROXIMA NOVA";
+    COLOR:black;
+    FONT-SIZE:70PX;
+    font-weight:550;
+    MARGIN-BOTTOM:40PX;
+    animation-delay: 0.5s;
+}
+.con:hover{
+    color:black;
+}
+.omega{
+    display:flex;
+    flex-direction: row;
+    color:black;
+    animation-delay: 0.5s;
+}
+.goblin{
+    display:flex;
+    flex-direction: row;
+    margin-top:30px;
+    color:black;
+    animation-delay: 0.5s;
+
+}
+.combo{
+    display:flex;
+    flex-direction:column;
+}
+.goblin span{
+    margin-right:15px;
+    font-size:20px;
+    color:black;
+}
+.goblin span:hover{
+    font-size:25px;
+}
+.omega span{
+    margin-right:15px;
+    color:black;
+    font-size:20px;
+}
+.omega span:hover{
+    font-size:25px;
+}
+.size{
+    font-size:20px;
+}
+.me{
+    display:flex;
+    flex-direction:row;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+.me a{
+    margin-right:30px;
+    font-size:30px;
+}
+.me a:hover{
+    font-size:35px;
+}
+ .three .hector{
+    direction:flex;
+    flex-direction:column;
+    width:50vw;
+    height:100vh;
+    justify-content: center;
+    text-align:left;
+    padding:200px;
+    padding-left:0px;
+    
+}
+.name{
+    width:42vw;
+    height:6vh;
+    margin-bottom:10px;
+    padding:5px;
+    background-color: rgb(107, 101, 101);
+    color:white;
+    animation-delay: 0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+
+    
+}
+.name:hover{
+    border: 3px solid rgb(5, 152, 237);
+    box-shadow: 0 0 30px rgb(5, 152, 237);
+}
+.email{
+    width:42vw;
+    height:6vh;
+    margin-bottom:10px;
+    padding:5px;
+    background-color:rgb(107, 101, 101);
+    color:white;
+    animation-delay: 0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+    
+
+
+}
+.email:hover{
+    border: 3px solid rgb(5, 152, 237);
+    box-shadow: 0 0 30px rgb(5, 152, 237);
+}
+.suggest{
+    width:42vw;
+    height:40vh;
+    margin-bottom:10px;
+    padding:8px;
+    background-color: rgb(107, 101, 101);
+    color:white;
+    animation-delay: 0.5s;
+    border: 2px solid black;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+
+}
+.suggest:hover{
+    border: 3px solid rgb(5, 152, 237);
+    box-shadow: 0 0 30px rgb(5, 152, 237) ;
+}
+.bu{
+    background-color:rgb(5, 152, 237);
+    width:150px;
+    height:50px;
+    border-radius:30px;
+    border-top-right-radius:0px;
+    margin-top:20px;
+    color:black;
+    animation-delay:1.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.bu:hover{
+    color:white;
+    background-color:rgb(5, 152, 237);
+    width:155px;
+    height:55px;
+    border-top-right-radius:30px;
+    box-shadow: 0 0 50px rgb(5, 152, 237);
+   
+
+}
+.four{
+    width:100vw;
+    height:100vh;
+    background-image:url(rm209-adj-18-e.jpg) ;
+    background-size: 100vw 100vh;
+}
+.joker{
+    font-size:80px;
+    font-weight:550;
+    text-align:center;
+    color:black;
+    
+}
+.joker:hover{
+    text-decoration:underline;
+   
+}
+.but{
+    color:black;
+}
+.m{
+   color:rgb(5, 152, 237);
+   font-family:"PROXIMA NOVA";
+   FONT-SIZE:70PX;
+    font-weight:550;
+    animation-delay: 0.5s;
+   
+}
+.pabar{
+    height:80vh;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+}
+.bar{
+    width:50vw;
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.a{
+    width:40vw;
+    height:20px;
+    background-color: black;
+    margin-top:20px;
+    border-radius:30px;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.a:hover{
+    box-shadow: 0 0 30px rgb(5, 152, 237);
+}
+.b{
+    width:40vw;
+    height:20px;
+    background-color: rgb(5, 152, 237);
+    border-radius:30px;
+}
+.c{
+    font-size:30px;
+    text-align:left;
+    font-family:"PROXIMA NOVA";
+    color:black;
+    animation-delay: 0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+
+}
+.c:hover{
+    box-shadow: 0 0 30px black;
+}
+.d{
+    margin-bottom:30px;
+}
+.e{
+    width:40vw;
+    height:20px; 
+    background-color: rgb(5, 152, 237);
+    border-radius:30px;
+}
+.f{
+    width:25vw;
+    height:20px; 
+    background-color: rgb(5, 152, 237);
+    border-radius:30px;
+}
+.g{
+    width:30vw;
+    height:20px; 
+    background-color: rgb(5, 152, 237);
+    border-radius:30px;
+}
+.my{
+    font-family:"PROXIMA NOVA";
+   FONT-SIZE:70PX;
+    font-weight:550;
+    color:black;
+}
+.abar{
+    width:40vw;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    margin-left:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.bbar{
+    width:50vw;
+    height:40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding:10px;
+}
+.cbar{
+    width:15vw;
+    height:30vh;
+    background-color: black;
+    background-image:url(ht.png);
+    background-size:15vw 30vh;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.cbar:hover{
+    box-shadow: 0 0 30px rgb(5, 152, 237);
+}
+
+.dbar{
+    width:15vw;
+    height:30vh;
+    background-color: black;
+    background-image:url(cs.png);
+    background-size:15vw 30vh;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.dbar:hover{
+    box-shadow: 0 0 30px rgb(5, 152, 237);
+}
+.ebar{
+    width:50vw;
+    height:40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:10px;
+    margin-right:20px;
+    
+
+}
+.fbar{
+    width:15vw;
+    height:30vh;
+    background-color: black;
+    background-image:url(gh.png);
+    background-size:15vw 30vh;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+    
+}
+.fbar:hover{
+    box-shadow: 0 0 30px rgb(5, 152, 237);
+}
+.gbar{
+    width:15vw;
+    height:30vh;
+    background-color: black;
+    background-image:url(zx.png);
+    background-size:15vw 30vh;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.g:hover{
+    box-shadow: 0 0 30px blue;
+}
+
+@media  screen and (max-width:320px){
+    body{
+        width:320px;
+    }
+    .zj{
+        font-size:85%;
+        margin-right:6%;
+    }
+    a{
+        font-size:13px;
+    }
+
+    .but{
+        display:none;
+    }
+    .tree{
+        display:flex;
+        flex-direction: row;
+        height:90vh;
+        width:128vw;
+        
+    }
+    .photo{
+        display:none;
+    }
+    .content{
+        
+        font-size:33px;
+        height:90vh;
+        width:128vw;
+        margin:108px;
+        margin-top:80px;
+     }
+     .content .shama{
+        margin-top:60px;
+        MARGIN-RIGHT:6PX;
+        animation-delay: 0.5s;
+    }
+    .lo  {
+        width:301.2px;
+        margin-top:8px;
+        font-size:10px;
+        display:flex;
+        justify-content:space-between;
+        
+    }
+    .new{
+        font-size:52px;
+    }
+    .next{
+        display:flex;
+       flex-direction:column;
+       justify-content: space-between;
+       background-size:1600px 750px;
+       }
+       .ad{
+        width:100vw;
+        height:90vh;
+        font-size:80px;
+        margin-top:73px;
+        padding:5px;
+    
+       }
+       .gh{
+        font-size: 24px;
+       }
+       .text{
+        font-size: 18px;
+       }
+       .hd{
+        background-image:url(IMG-20231125-WA0014.jpg);
+        background-size:48vh 77vw;
+        width:100vw;
+        height:37vh;
+        border-width: 2px;
+        BORDER-RADIUS:50%;
+        margin-top:60px;
+        margin-right:0px;
+        margin-left:0px;
+        margin-bottom:-59px;
+    }
+    .joker{
+        font-size: 60px;
+    }
+    .m{
+        FONT-SIZE:52PX;
+        
+     }
+     .my{
+       FONT-SIZE:52px;
+    }
+    .pabar{
+        height:80vh;
+        width:100vw;
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .abar{
+        width:99vw;
+        height:51vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        margin-left:1px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    .bbar{
+        width:99vw;
+        height:22vh;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        padding:0px;
+    }
+    .cbar{
+        width:28vw;
+        height:21vh;
+        background-color: black;
+        background-image:url(ht.png);
+        background-size:28vw 22vh;
+        box-shadow: 0 0 0px #fff;
+        transition: box-shadow 0.8s ease-in-out;
+    }
+    .bar{
+        flex-direction:column;
+    }
+    .dbar{
+        width:28vw;
+        height:21vh;
+        background-color: black;
+        background-image:url(cs.png);
+        background-size:28vw 22vh;
+        box-shadow: 0 0 0px #fff;
+        transition: box-shadow 0.8s ease-in-out;
+    }
+    .ebar{
+        width:99vw;
+        height:21vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left:0px;
+        margin-right:0px;
+        
+    
+    }
+    .fbar{
+        width:28vw;
+        height:21vh;
+        background-color: black;
+        background-image:url(gh.png);
+        background-size:28vw 22vh;
+        box-shadow: 0 0 0px #fff;
+        transition: box-shadow 0.8s ease-in-out;
+        
+    }
+    .gbar{
+        width:28vw;
+        height:21vh;
+        background-color: black;
+        background-image:url(zx.png);
+        background-size:28vw 22vh;
+        box-shadow: 0 0 0px #fff;
+        transition: box-shadow 0.8s ease-in-out;
+    }
+    .d{
+        margin-bottom:3px;
+    }
+    .c{
+        font-size:20px;
+        text-align:left;
+        font-family:"PROXIMA NOVA";
+        color:black;
+        animation-delay: 0.5s;
+        box-shadow: 0 0 0px #fff;
+        transition: box-shadow 0.8s ease-in-out;
+    
+    }
+    .a{
+        width:89vw;
+        height:20px;
+        background-color: black;
+        margin-top:13px;
+        border-radius:30px;
+        box-shadow: 0 0 0px #fff;
+        transition: box-shadow 0.8s ease-in-out;
+    }
+    .b{
+        width:89px;
+    }
+    .bar{
+        width:100vw;
+        height:80vh;
+        margin-top:10px;
+    }
+    .three{
+        flex-direction:column;
+    }
+    .three .ct{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        padding:0px;
+        height:60vh;
+        width:100vw;
+        margin-top:0px;
+        padding-left:0vw;
+        align-items:left;
+    
+    }
+    .con{
+        font-family:"PROXIMA NOVA";
+        COLOR:black;
+        FONT-SIZE:50PX;
+        font-weight:550;
+        MARGIN-BOTTOM:25PX;
+        animation-delay: 0.5s;
+    }
+    .goblin span{
+        margin-right:15px;
+        font-size:16px;
+        color:black;
+    }
+    .omega span{
+        margin-right:15px;
+        font-size:16px;
+        color:black;
+    }
+    .three .hector{
+        direction:flex;
+        flex-direction:column;
+        width:163vw;
+        height:105vh;
+        justify-content: center;
+        text-align:left;
+        padding:0px;
+        padding-left:0px;
+        
+    }
+    .name{
+        width:100vw;
+        height:6vh;
+        margin-bottom:8px;
+        padding:0px;
+    }
+    .email{
+        width:100vw;
+        height:6vh;
+        margin-bottom:8px;
+        padding:0px;
+    }
+    .suggest{
+        width:100vw;
+        height:29vh;
+        margin-bottom:8px;
+        padding:0px;
+    }
+    .bu{
+        display:block;
+        width:314px;
+    }
+}
+@media all and (max-width:768px){
+    .zj{
+        font-size:117%;
+        margin-right:5%;
+    }
+    a{
+        font-size:16px;
+    }
+    .tree.photo{
+        margin-left:83px;
+    }
+    .content{
+        
+        font-size:44px;
+        height:90vh;
+        width:60vw;
+        margin:15px;
+     }
+     .hd{
+        background-image:url(IMG-20231125-WA0014.jpg);
+        background-size:45vh 43vw;
+        width:39vw;
+        height:50vh;
+        border-width: 2px;
+        margin-top:194px;
+        margin-right:0px;
+        margin-left:44px;
+        margin-bottom:100px;
+    }
+    .ad{
+        height:49vh;
+    }
+    .abar{
+        width:50vw;
+        height:80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        margin-left:2px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .bbar{
+        width:50vw;
+        height:33vh;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        padding:10px;
+    }
+    .ebar{
+        width:48vw;
+        height:30vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left:10px;
+        margin-right:20px;
+        
+    
+    }
+    .three .ct{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        padding:0px;
+        height:100vh;
+        width:50vw;
+        margin-top:30px;
+        padding-left:1vw;
+        align-items:left;
+    
+    }
+}
+    @media all and (max-width:1024px) {
+
+            .tree .photo{
+                background-image:url(ziya.jpg);
+                background-size:40vw 90vh;
+                margin-left:-58px;
+                animation-delay:1.5s;
+                width:40vw;
+                height:89vh;
+            }
+            .content{
+                text-align:left;
+                font-size:44px;
+                display:flex;
+                flex-direction:column;
+                align-items:left;
+                margin:11px;
+                font-weight:1000;
+                font-family:Arial, Helvetica, sans-serif;
+                height:90vh;
+                width:60vw;
+                color:black;
+                
+            
+                
+            }
+            .hd{
+                background-image:url(IMG-20231125-WA0014.jpg);
+                background-size:50vh 43vw;
+                width:32vw;
+                height:50vh;
+                border-width: 2px;
+                margin-top:161px;
+                margin-right:0px;
+                margin-left:126px;
+                margin-bottom:94px;
+            }
+            .three .ct{
+                display:flex;
+                flex-direction: column;
+                justify-content:center;
+                padding:6px;
+                height:100vh;
+                width:50vw;
+                margin-top:26px;
+                padding-left:4vw;
+                align-items:left;
+            
+            }
+        
+    }
+    
+    
+
+
+
+
